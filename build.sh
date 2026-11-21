@@ -10,7 +10,7 @@
 # Requires: CMake 3.22.1, Android NDK (version below), JDK 17.
 set -euo pipefail
 
-VERSION="5.1.107.91"
+VERSION="5.1.107.91-1"
 NDK_VERSION="${ANDROID_NDK_VERSION:-28.2.13676358}"
 ANDROID_PLATFORM="${ANDROID_PLATFORM:-android-30}"
 ABI="arm64-v8a"
