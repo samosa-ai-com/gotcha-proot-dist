@@ -1,0 +1,19 @@
+# Licence
+
+This repository contains build recipes and vendored third-party sources, each
+under its own licence. Nothing here is relicensed.
+
+| Part | Licence | Text |
+|---|---|---|
+| `third_party/proot` (submodule) | GPL-2.0-only | `licenses/proot-GPL-2.0.txt` |
+| `third_party/libandroid-shmem` (submodule) | BSD-3-Clause | `licenses/libandroid-shmem-BSD-3-Clause.txt` |
+| `third_party/talloc` (vendored) | LGPL-3.0-or-later | `licenses/talloc-LGPL-3.0-or-later.txt` |
+| CMake recipe, scripts, docs (this repository) | MIT | `licenses/mobile-harness-MIT.txt` |
+
+A built bundle combines PRoot (GPL-2.0-only) with talloc (LGPL-3.0-or-later)
+and libandroid-shmem (BSD-3-Clause). Distributing that bundle is permitted
+under GPL-2.0-only, provided the corresponding source is made available —
+which is the purpose of this repository.
+
+The binary bundles are built artefacts, not source. The source is this
+repository at the matching release tag.
